@@ -1,0 +1,14 @@
+{
+    "baseURL": "https://www.saucedemo.com/",
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "product": "Sauce Labs Backpack",
+    "firstName": "Test",
+    "lastName": "User",
+    "postalCode": "123456",
+    "orderConfirmationMessage": "Thank you for your order!",
+    "error_invalid_credentials": "Epic sadface: Username and password do not match any user in this service",
+    "error_locked_out": "Epic sadface: Sorry, this user has been locked out.",
+    "error_username_required": "Epic sadface: Username is required",
+    "error_password_required": "Epic sadface: Password is required"
+}

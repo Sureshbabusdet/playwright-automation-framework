@@ -1,0 +1,37 @@
+[
+    {
+        "TestCaseID": "TC101",
+        "Title": "Verify that whether user lands on Home page after login",
+        "Prerequisites": "Site url : https://www.saucedemo.com/\n\nUsername: standard_user\npassword: secret_sauce",
+        "Steps": "1. Launch Sauce Labs site in any browser\r\n2. Enter username and password in the login page\r\n3. Click on Login button",
+        "ExpectedResult": "1. Sauce labs login page will be displayed\r\n3. Home page should be displayed with the tile of 'Swag Labs'"
+    },
+    {
+        "TestCaseID": "TC102",
+        "Title": "Verify that whether user able to add product to the cart from home page",
+        "Prerequisites": "Site url : https://www.saucedemo.com/\n\nUser is on Home page\nUsername: standard_user\nPassword: secret_sauce",
+        "Steps": "1. User clicks on Add to cart button on any product from home page\r\n2. Verify the Add to cart button",
+        "ExpectedResult": "1. Product gets added to the cart\r\n2. Add to cart button changes to Remove button"
+    },
+    {
+        "TestCaseID": "TC103",
+        "Title": "Verify the user able to remove the product from the cart",
+        "Prerequisites": "Site url : https://www.saucedemo.com/\n\nUser is on Home page\nProduct is added to the cart\nUsername: standard_user\nPassword: secret_sauce",
+        "Steps": "1. User is on Home page\r\n2. Click the Remove button in the product\r\n3. Verify the Remove button",
+        "ExpectedResult": "2. Product gets removed from cart\r\n3. Remove button changes back to Add to cart button"
+    },
+    {
+        "TestCaseID": "TC104",
+        "Title": "Footer - Verify the footer in the Home page",
+        "Prerequisites": "Site url : https://www.saucedemo.com/\n\nUser is on Home page\nUsername: standard_user\nPassword: secret_sauce",
+        "Steps": "1. Scroll down to the footer \r\n2. Verify the copyright year, social media links like Facebook, Twitter and LinkedIn",
+        "ExpectedResult": "2. Current year should be displayed for copyright and user should able to navigate to the respective social media links."
+    },
+    {
+        "TestCaseID": "TC105",
+        "Title": "Logout - Verify whether user is able to logout from Home page",
+        "Prerequisites": "Site url : https://www.saucedemo.com/\n\nUser is on Home page\nUsername: standard_user\nPassword: secret_sauce",
+        "Steps": "1. Click on left side menu bar icon\r\n2. Click on Log out button",
+        "ExpectedResult": "2. User should be lands on login page "
+    }
+]

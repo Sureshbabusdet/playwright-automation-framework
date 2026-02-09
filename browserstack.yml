@@ -1,0 +1,44 @@
+# browserstack.yml
+
+userName: <UsernameHere>
+accessKey: <AccessKeyHere>
+# =============================
+# BrowserStack capabilities
+# =============================
+capabilities:
+  projectName: "Playwright Automation"
+  buildName: "Build #${BUILD_NUMBER}"
+  sessionName: "Playwright Tests"
+  debug: true
+  networkLogs: true
+  video: true
+  consoleLogs: "info"
+
+# =============================
+# Define Browser/OS combinations
+# =============================
+browsers:
+  - browser: "chrome"
+    os: "Windows"
+    osVersion: "11"
+  - browser: "firefox"
+    os: "OS X"
+    osVersion: "Sonoma"
+  - browser: "webkit"
+    os: "Windows"
+    osVersion: "11"
+
+# =============================
+# Playwright specific settings
+# =============================
+playwright:
+  version: latest
+  testDir: "./tests"
+  reporter: "line"
+
+browserstackLocal: false
+debug: true
+consoleLogs: "info"
+
+testObservability: false
+browserstackAutomation: true
