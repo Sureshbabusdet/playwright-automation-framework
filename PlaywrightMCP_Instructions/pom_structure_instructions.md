@@ -215,6 +215,6 @@ The **playwright_mcp_instructions.md** file must **reference this po_structure_i
 
 ---
 
-**Author:** Aravind Kumar
+**Author:** Suresh B
 **Purpose:** Enforce POM-based Playwright architecture for maintainable, reusable, and scalable test automation
 **Usage:** Used in conjunction with Playwright MCP Instructions for automated test generation
