@@ -228,6 +228,6 @@ A JSON file summarizing the test outcomes:
 
 ---
 
-**Author:** Aravind Kumar
+**Author:** Suresh B
 **Use case:** Sauce Labs functional test automation via Playwright MCP
 **Result:** Dynamic JSON-driven Playwright automation pipeline that self-generates, executes, and validates tests automatically ✅
