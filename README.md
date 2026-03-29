@@ -210,11 +210,11 @@ playwright-automation-framework
    ---
 
    <p align="center">
-     <b>Made by Suresh Babu</b>
+     <b>Made by Suresh Babu S </b>
    </p>
 
   ---
 
   <p align="center" style="color: #888; font-size: 0.95em;">
-    <b>For questions, contributions, or support, please contact.:-  Suresh</b>
+    <b>For questions, contributions, or support, please contact.:- 8073372170 -  Suresh Babu S</b>
   </p>
